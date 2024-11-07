@@ -1,0 +1,13 @@
+body{
+    background-image: url(assets/background.jpg);
+    width: 1440px;
+    height: 1024px;
+    
+}
+.nav{
+    width: 1440px;
+    height: 100px;
+
+    background: linear-gradient(182.58deg, rgba(239, 206, 188, 0.6) 2.16%, rgba(228, 167, 135, 0.6) 97.84%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
