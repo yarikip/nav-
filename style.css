@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     background-image: url(assets/background.jpg);
     width: 1440px;
@@ -5,9 +7,180 @@ body{
     
 }
 .nav{
+    display: flex;
     width: 1440px;
     height: 100px;
 
     background: linear-gradient(182.58deg, rgba(239, 206, 188, 0.6) 2.16%, rgba(228, 167, 135, 0.6) 97.84%);
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bulb{
+
+    font-size: 70px;
+    opacity: 0.75;
+    height: 64px;
+    padding-top: 10px;
+}
+
+.name{
+
+position: absolute;
+width: 159px;
+height: 82px;
+left: 84px;
+top: 8px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 41px;
+letter-spacing: 0.4px;
+
+color: rgba(0, 0, 0, 0.75);
+
+text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    justify-self: start;
+    position: absolute;
+    width: 233px;
+    height: 82px;
+}
+
+.nav-men{
+
+padding-top: 30px;
+margin-left: 410px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 41px;
+/* identical to box height, or 82% */
+letter-spacing: 0.4px;
+
+}
+.ref{
+    padding: 0 145px 0 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-btn {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 41px;
+    letter-spacing: 0.4px;
+
+    color: rgba(0, 0, 0, 0.7);
+
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+    border: none;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-left: 65px;
+    margin-right: 35px;
+
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    transition: ease-in-out 5s;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 44px;
+    background: linear-gradient(180deg, rgba(215, 179, 160, 0.49) 0%, rgba(199, 124, 84, 0.49) 100%);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+
+    width: 450px;
+    height: 535px;
+    flex-shrink: 0;
+    right: 10px;
+    top: 110px;
+
+    transition: ease-in-out 5s;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+
+    width: 400px;
+    height: 90px;
+    
+
+    background: rgba(255, 223, 206, 0.5);
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    margin: 30px 25px 40px 25px;
+
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px; /* 91.111% */
+    letter-spacing: 0.4px;
+
+    transition: ease-in-out 0.5s;
+
+  }
+
+
+/* Note: backdrop-filter has minimal browser support */
+
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: #d4b591ab;}
+  
+  /* Показать выпадающее меню при наведении курсора */
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dark {visibility: visible;}
+
+
+.login-reg-menu {
+
+margin-left: 90px;
+margin-top: 150px;
+
+background: linear-gradient(180deg, rgba(249, 237, 231, 0.495) 0%, rgba(225, 153, 115, 0.495) 100%);
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+border-radius: 44px;
+
+width: 942px;
+height: 677px;
+}
+
+.reg-text{
+
+    padding-top: 50px;
+    margin-left: 43px;
+
+color: rgba(0, 0, 0, 0.70);
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 82% */
+letter-spacing: 0.4px;
+
 }
